@@ -1,0 +1,27 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@import "jekyll-theme-prologue";
+
+.center-image {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.div-table {
+  display: table;
+  width: 100%;
+
+}
+.div-table-row {
+  display: table-row;
+  width: auto;
+  height: auto;
+  clear:both;
+}
+.div-table-col {
+  display: inline-grid;
+  width: calc(100% / 3 - 10px);
+  margin: 5px;
+}
