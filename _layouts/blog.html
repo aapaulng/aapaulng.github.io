@@ -13,7 +13,7 @@ layout: default
 		{%- capture _titletemp -%}
 			<a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a>
 		{%- endcapture -%}
-		{%- capture _image -%}<img class='center-image' src="{{ site.baseurl }}/assets/images/{{ _post.image }}" style="width:500px" >{%- endcapture -%}
+		{%- capture _image -%}<img class='center-image' src="{{ site.baseurl }}/assets/images/{{ _post.image }}" style="width:50%" >{%- endcapture -%}
 		{%- assign _title = _titletemp | append: _image -%}
 		{%- capture _subtitle -%}
 			{% if _post.author -%}{{- _post.author }} | {% endif %}
