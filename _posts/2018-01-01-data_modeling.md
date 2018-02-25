@@ -11,7 +11,7 @@ I attended [ADAX](http://adax.asia/datastar/) Data Scientist programme for the p
 Learned a lot on data modeling. I rewrote some of the notes with my own understanding.
 This project is focusing on Python library [Pandas](https://pandas.pydata.org/) and [Sklearn](http://scikit-learn.org/)
 
-Codes are written in Jupyter Notebook: [here](https://github.com/aapaulng/js_scrap)
+Codes are written in Jupyter Notebook: [here](https://github.com/aapaulng/data_modeling)
 
 It includes :
 - Regression technique(Linear/Logistic)
